@@ -1,0 +1,93 @@
+
+html {
+    background-color: #f2d0f5;
+}
+
+p {
+    color: #4a3837;
+    font-family: "EB Garamond";
+    padding: 1em 2em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h3 {
+    font-family: "UnifrakturCook";
+    font-size: 2em;
+    color: #4a3837;
+    text-align: center;
+}
+
+h1 {
+    font-family: "UnifrakturCook";
+    font-size: 4em;
+    color: #4a3837;
+    text-align: center;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   padding-top: 0.5em;
+   flex-wrap: wrap;
+}
+
+nav ul {
+   display: inline-flex;
+   justify-content: center;
+
+}
+
+ nav li {
+   padding: 1em 2em;
+   list-style-type: none;
+   transition: all 0.2s ease-in-out;
+   font-family: "UnifrakturCook";
+   font-size: 1.5em;
+}
+
+nav li a {
+      text-decoration: none;
+      color: #0d6994;
+}
+
+
+nav li:hover {
+  transform: scale(1.5);
+  color: antiquewhite;
+}
+
+nav li a:hover {
+  color: white;
+}
+
+.currentpage {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+      color: #0d6994;
+}
+
+a:hover {
+  color: white;
+}
+
+.unifrakturcook-bold {
+  font-family: "UnifrakturCook", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.eb-garamond> {
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+footer p {
+    font-size: 1em;
+}
