@@ -11,6 +11,14 @@ p {
     font-size: 1.3em;
 }
 
+li {
+    color: #4a3837;
+    font-family: "EB Garamond";
+    padding: 1em 2em;
+    font-size: 1.3em;
+    list-style-type: square;
+}
+
 h3 {
     font-family: "UnifrakturCook";
     font-size: 2em;
@@ -65,6 +73,21 @@ nav li a:hover {
     color: white;
 }
 
+#productbox {
+  display: flex;
+  margin: auto;
+  align-items: start;
+  padding: 0em 2em;
+}
+
+#producttext {
+  text-align: center;
+}
+
+#producttext li {
+  text-align: left;
+}
+
 a {
     text-decoration: none;
       color: #0d6994;
@@ -72,6 +95,23 @@ a {
 
 a:hover {
   color: white;
+}
+
+button {
+  color: #0d6994;
+  background-color: white;
+  font-family: "UnifrakturCook";
+  border-radius: 1em;
+  box-shadow: none;
+  border: none;
+  padding: 0.7em;
+  text-decoration: none;
+  font-size: 1.2em;
+
+}
+
+button a:hover {
+  color: #4a3837;
 }
 
 .unifrakturcook-bold {
