@@ -88,6 +88,29 @@ nav li a:hover {
   text-align: left;
 }
 
+#productsdisplay {
+  display: flex;
+}
+
+.product {
+  padding: 1em;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  max-height: 15em;
+}
+
+.product img:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+
 a {
     text-decoration: none;
       color: #0d6994;
