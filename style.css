@@ -106,6 +106,10 @@ nav li a:hover {
   margin: 1em;
 }
 
+#mobilelinks a {
+  font-size: 3em;
+}
+
 .product {
   padding: 1em;
   margin: auto;
