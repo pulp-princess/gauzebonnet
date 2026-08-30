@@ -99,6 +99,13 @@ nav li a:hover {
   display: flex;
 }
 
+#mobilelinks {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin: 1em;
+}
+
 .product {
   padding: 1em;
   margin: auto;
