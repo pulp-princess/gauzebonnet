@@ -87,6 +87,10 @@ nav li a:hover {
   padding: 0em 2em;
 }
 
+#productbox img {
+  width: 30em;
+}
+
 #producttext {
   text-align: center;
 }
